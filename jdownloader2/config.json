@@ -1,0 +1,27 @@
+{
+  "name": "JDownloader 2",
+  "version": "0.1",
+  "slug": "jdownloader2",
+  "description": "Run JDownloader2 on your Home Assistant and access it via web UI or the MyJDownloader app",
+  "url": "https://jdownloader.org/jdownloader2",
+  "arch": ["armv7", "aarch64", "amd64"],
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:5800]/",
+  "boot": "auto",
+  "image": "jlesage/jdownloader-2",
+  "ports": {
+    "3129/tcp": 3129,
+    "5800/tcp": 5800
+  },
+  "ports_description": {
+    "5800/tcp": "WebUI port",
+    "3129/tcp": "MyJDownloader port"
+  },
+  "map": [
+    "media:rw", 
+    "share:rw"
+  ],
+  "ingress": true,
+  "ingress_port": 5800,
+  "ingress_entry": "/"
+}
