@@ -1,6 +1,6 @@
 {
   "name": "JDownloader 2",
-  "version": "0.1",
+  "version": "v24.01.1",
   "slug": "jdownloader2",
   "description": "Run JDownloader2 on your Home Assistant and access it via web UI or the MyJDownloader app",
   "url": "https://jdownloader.org/jdownloader2",
