@@ -48,7 +48,7 @@ RUN \
         then \
             curl -q -L -o /deconz.deb http://deconz.dresden-elektronik.de/debian/beta/deconz_${DECONZ_VERSION}-debian-buster-stable_arm64.deb; \
         else \
-            curl -q -L -o /deconz.deb http://deconz.dresden-elektronik.de/ubuntu/bete/deconz-${DECONZ_VERSION}-qt5.deb; \
+            curl -q -L -o /deconz.deb http://deconz.dresden-elektronik.de/ubuntu/beta/deconz-${DECONZ_VERSION}-qt5.deb; \
         fi \
     && dpkg -i /deconz.deb \
     && rm -f /deconz.deb \
