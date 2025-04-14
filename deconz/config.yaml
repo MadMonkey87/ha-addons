@@ -1,7 +1,7 @@
 ---
-version: 8.0.3
-slug: deconz-custom
-name: deCONZ-custom
+version: 8.0.4
+slug: deconz-beta
+name: deCONZ-beta
 description: >-
   Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik. CUSTOMIZED TO USE THE LATEST BETA VERSION
 url: https://github.com/home-assistant/addons/tree/master/deconz
@@ -19,7 +19,7 @@ discovery:
   - deconz
 gpio: true
 homeassistant: 0.91.2
-image: homeassistant/{arch}-addon-deconz
+image: innercore/{arch}-addon-deconz
 ingress: true
 ingress_entry: ingress.html
 init: false
