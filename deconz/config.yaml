@@ -19,7 +19,7 @@ discovery:
   - deconz
 gpio: true
 homeassistant: 0.91.2
-image: innercore/{arch}-addon-deconz
+#image: innercore/{arch}-addon-deconz
 ingress: true
 ingress_entry: ingress.html
 init: false
